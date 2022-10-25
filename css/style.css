@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600;1,700&family=Tajawal:wght@200;300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+
+}
+section{
+    width: 400px;
+    height: auto;
+    margin: 100px auto ;
+}
+  
+.card {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 25px;
+    box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card .content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card .content h2{
+    font-size: 30px;
+}
+
+.card:nth-child(1) {
+    top: .5rem; 
+    transform: translateX(10px)
+}
+
+.card:nth-child(2) {
+    top: 1rem;
+    transform: translateX(20px)
+}
+
+.card:nth-child(3) {
+    top: 1.5rem;
+    transform: translateX(30px)
+}
+
+.card:nth-child(4) {
+    top: 2rem;
+    transform: translateX(40px)
+}
+
+.card:nth-child(5) {
+    top: 2.5rem;
+    transform: translateX(50px)
+}
+
+.card:nth-child(6) {
+    top: 3rem;
+    transform: translateX(60px)
+}
+
+.card:nth-child(7) {
+    top: 3.5rem;
+    transform: translateX(70px)
+}
+
+.card:nth-child(8) {
+    top: 4rem;
+    transform: translateX(80px)
+}
+
+.card:nth-child(9) {
+    top: 4.5rem;
+    transform: translateX(90px)
+}
+
+.card:nth-child(10) {
+    top: 5rem;
+    transform: translateX(100px)
+}
