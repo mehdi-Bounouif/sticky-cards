@@ -23,22 +23,26 @@ section{
     flex-direction: column;
     gap: 20px;
 }
-.card .content{
+.card .head{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.card .content img{
+.card .head img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
-.card .content h2{
+.card .head h2{
     font-size: 30px;
+    text-transform: capitalize;
 }
-
+.card p{
+    font-size: 18px;
+    line-height: 30px;
+}
 .card:nth-child(1) {
     top: .5rem; 
     transform: translateX(10px)
